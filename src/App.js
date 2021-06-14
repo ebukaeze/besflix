@@ -1,12 +1,15 @@
 import React from 'react';
 import RowPost from './components/Row';
 import requests from './requests';
+import Banner from './components/Banner';
+import Nav from './components/Navbar';
 
 
 function App() {
   return (
     <div className="App">
-
+      <Nav />
+     <Banner />
      
      <RowPost title="BESFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals}
      isLargeRow={true}/>

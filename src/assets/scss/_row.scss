@@ -1,5 +1,11 @@
 .row {
+  color: white;
   margin-left: 10px;
+
+  h2 {
+    padding: 2rem auto;
+    margin: 2rem auto;
+  }
   .movies-row {
     display: flex;
 
@@ -10,7 +16,7 @@
       align-items: center;
       justify-content: space-between;
       margin: 0 auto;
-      margin-left: 8px;
+      margin-left: 18px;
       overflow-y: hidden;
       overflow-x: scroll;
 

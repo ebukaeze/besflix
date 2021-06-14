@@ -1,5 +1,7 @@
 @import "./row";
 @import "./variables";
+@import "./banner";
+@import "./navbar";
 
 * {
   margin: 0;
@@ -16,4 +18,7 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.App {
+  background-color: #000;
 }
