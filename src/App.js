@@ -3,6 +3,7 @@ import RowPost from './components/Row';
 import requests from './requests';
 import Banner from './components/Banner';
 import Nav from './components/Navbar';
+import Footer  from './components/Footer';
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
       <RowPost title="Romance Movies" fetchUrl={requests.fetchRomanceMovies}/>
       <RowPost title="Documentaries Movies" fetchUrl={requests.fetchDocumentaries}/>
 
-
+     <Footer />
     </div>
   );
 }
