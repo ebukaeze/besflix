@@ -4,6 +4,7 @@ import axios from '../axios';
 
 
 function Banner(){
+     let winMobile = window.innerWidth;
     const [movie, setMovie] = useState([]);
 
     useEffect(() => {
@@ -24,14 +25,20 @@ function Banner(){
      function truncate(str, n){
       return str?.length  > n ? str.substr(0, n - 1) + "..." : str;
      }
+
+    
     return(
         <header className="banner"
-        style={{
+        style={  winMobile = 900 ? { 
             backgroundSize:'cover',
             backgroundImage: `url(
                 https://image.tmdb.org/t/p/original/${movie?.backdrop_path})`,
-        backroundPosition:"center center",
-    }} >
+        backroundPosition:"center center", 
+        
+    } : { backgroundSize:'cover',
+            backgroundImage: `url(
+                https://image.tmdb.org/t/p/original/${movie?.backdrop_path})`,
+        backroundPosition:"center center", width: '230px', maxWidth: '300px' }} >
         
         <div className="banner__contents">
             <div className="container">

@@ -69,3 +69,14 @@
     box-shadow: 50px 70px 90px -30px #1a1a1a9c;
   }
 }
+@media screen and (max-width: 900px) {
+  .banner {
+    .banner__contents {
+      .container {
+        .banner__description {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

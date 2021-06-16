@@ -45,3 +45,17 @@
     }
   }
 }
+@media screen and (max-width: 900px) {
+  .footer {
+    .content-container {
+      .fot-links {
+        ul {
+          flex-direction: column;
+          .fot-items {
+            margin-top: 7px;
+          }
+        }
+      }
+    }
+  }
+}
