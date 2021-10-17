@@ -4,6 +4,10 @@
 
 This project was created with the intent to mimic the Original Netflix (https://Netflix.com)
 
+## Live SIte
+
+(https://besflix-react.web.app/)
+
 ## All the movie data were pulled with Axios from themoviesdatabase.org (TMDB)
 
 - Powered by
