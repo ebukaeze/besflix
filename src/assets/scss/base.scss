@@ -9,9 +9,7 @@
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: $font-family;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -22,4 +20,9 @@ code {
 }
 .App {
   background-color: #000;
+}
+.scroll__bg {
+  width: 100%;
+  height: 35px;
+  background-color: rgba(65, 5, 121, 0.774);
 }
