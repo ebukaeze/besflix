@@ -1,10 +1,28 @@
-## This is a Netflix Clone web App built with Reactjs
+# Besflix
+
+## _This is a Netflix Clone web App built with Reactjs_
 
 This project was created with the intent to mimic the Original Netflix (https://Netflix.com)
 
-## All the movie data were pulled with Axios from TMDB
+## All the movie data were pulled with Axios from themoviesdatabase.org (TMDB)
 
-TMDb offers a powerful API service that is free to use as long as you properly attribute us as the source of the data and/or images you use).
+- Powered by
+  ![N|Solid](https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg)
+  TMDb offers a powerful API service that is free to use as long as you properly attribute us as the source of the data and/or images you use).
+
+### Screen Shots
+
+![](./evefolio.png)
+
+### Built with
+
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- React Hooks
+- Context API
+- [React](https://reactjs.org/) - JS library
 
 ## To Clone this This project
 
@@ -15,19 +33,6 @@ besflix) and download the file and download all dependencies or Clone the Repo d
 ## This Web App is hosted using firebase hosting services
 
 The web app was deployed to firebase
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
