@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from  'react-router-dom';
 
 
 function Footer() {
@@ -10,10 +11,10 @@ function Footer() {
             alt="BESFLIX"/>
             <div className="fot-links">
                 <ul>
-                    <li className="fot-items">Contact Us</li>
-                    <li className="fot-items">Go to Netflix</li>
-                    <li className="fot-items">Subscribe</li>
-                    <li className="fot-items">Services</li>
+                   
+                    <li className="fot-items"><Link to={{pathname: "https://www.netflix.com"}}>Go to Netflix</Link></li>
+                    <li className="fot-items"><Link to={{pathname: "https://www.netflix.com/youraccount"}}>Account</Link></li>
+                    <li className="fot-items"><Link to={{pathname: "https://help.netflix.com/contactus"}}>Contact Us</Link></li>
                 </ul>
             </div>
 
